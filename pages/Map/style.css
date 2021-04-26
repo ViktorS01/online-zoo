@@ -1,0 +1,272 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    width: 1920px;
+    
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+.container-header{
+    width: 1400px;
+    margin: auto;
+
+    align-items: center;
+    display: flex;
+}
+
+.container-favorite-animal{
+    width: 1400px;
+    margin: auto;
+    padding-bottom: 150px;
+}
+
+.header{
+    padding: 18px 0px 15px 0px;
+    background-color: #F58021;
+    max-width: 100%;
+}
+
+.navigation{
+    display: flex;
+}
+
+.header__navigation{
+    display: flex;
+    align-items: center;
+}
+
+.header__navigation__img{
+    display: flex;
+    align-items: center;
+}
+
+.navigation__link{
+    text-decoration: none;
+    text-transform: uppercase;
+
+    padding-right: 48px;
+
+    color: black;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.navigation__link:active{
+    color: #00A092;
+}
+
+.link-about:visited{
+    color: #00A092;
+}
+
+.navigation__link-img{
+    padding-right: 29px;
+}
+
+.facebook{
+    padding-right: 0;
+}
+
+.design{
+    padding-right: 30px;
+}
+
+.logo{
+    padding-right: 465px;
+}
+
+.map-title{
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 66px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #20113D;
+
+    width: 600px;
+    margin: auto;
+    margin-top: 45px;
+    margin-bottom: 60px;
+}
+
+.map{
+    text-align: center;
+    position: relative;
+
+    margin-bottom: 155px;
+}
+
+.Animal::after{
+    content: attr(data-tooltip); /* Главная часть кода, определяющая содержимое всплывающей подсказки */
+	opacity: 0; /* Наш элемент прозрачен... */
+	visibility: hidden; /* ...и скрыт. */
+
+    color: white;
+    background-color:#F58021;
+    width: 150px;
+    margin-left: -140px;
+    margin-top: -20px;
+	/* transition: all 0.4s ease-in-out; */
+}
+
+.Animal:hover::after {
+	opacity: 1; /* Показываем его */
+	visibility: visible;
+	position: absolute;
+}
+
+.Crocodile{
+    left: 27.28%;
+    top: 43.63%;
+}
+
+.Godzilla{
+    left: 48.17%;
+    top: 50.65%;
+}
+
+.koala{
+    left: 71.81%;
+    top: 66.97%;
+}
+
+.Lion{
+    left: 42.12%;
+    top: 48.33%;
+}
+
+.lemur{
+    left: 53.53%;
+    top: 63.54%;
+}
+
+.panda{
+    left: 61.71%;
+    top: 37.36%;
+}
+
+.tiger{
+    left: 64.99%;
+    top: 54.43%;
+}
+
+.Bird{
+    left: 20%;
+    top: 40.88%;
+}
+
+.Animal{
+    position: absolute;
+
+    cursor: help;
+}
+
+.footer{
+    background: #20113D;
+}
+
+.footer__container{
+    width: 1440px;
+    margin: auto;
+}
+
+.footer__navigation{
+    align-items: center;
+    display: flex;
+
+    margin-top: 55px;
+    padding-left: 18px;
+}
+
+.footer__link{
+    padding-right: 67px;
+}
+
+.first-child{
+    padding-left: 30px;
+}
+
+.footer__link-text{
+    padding-right: 50px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: white;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.footer__last-nav{
+    display: flex;
+
+    margin-top: 23px;
+    margin-left: 20px;
+}
+
+.footer-text{
+    font-size: 18px;
+    line-height: 150%;
+
+    color: #FFFFFF;
+
+    padding-right: 50px;
+}
+
+.footer__hr{
+    width: 1400px;
+    border: 1px solid #FFFFFF;
+    margin-top: 35px;
+}
+
+.footer__imgs{
+    margin-left: 670px;
+    padding-bottom: 20px;
+}
+
+.text-button-leave{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    padding-right: 7px;
+
+}
+
+.button-new-leave{
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+
+    padding: 25px 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: transparent;
+}
+
+
+.last-button{
+    margin: 0;
+    margin-left: 40px;
+    margin-top: 10px;
+    padding: 26px 35px;
+}
